@@ -24,8 +24,7 @@ Está diseñado como un sitio web fácil de navegar, visualmente atractivo (en t
 ## 🚀 Visualiza el sitio web
 
 👉 Puedes ver el proyecto en línea gracias a GitHub Pages:  
-**[https://TU_USUARIO.github.io/malla-ingenieria-informatica](https://TU_USUARIO.github.io/malla-ingenieria-informatica)**  
-_(Reemplaza `TU_USUARIO` con tu nombre de usuario de GitHub)_
+**[https://TU_USUARIO.github.io/malla-ingenieria-informatica](https://Jose2832.github.io/malla-ingenieria-informatica)**
 
 ---
 
