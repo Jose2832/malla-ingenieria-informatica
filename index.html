@@ -8,191 +8,164 @@
 </head>
 <body>
   <header>
-    <h1>Malla Curricular - Ingeniería Informática</h1>
+    <h1>Malla Curricular Interactiva</h1>
+    <p>Haz clic en una materia para marcarla como aprobada. Vuelve a hacer clic para desmarcar.</p>
   </header>
-  <main>
-    <section class="año">
-      <h2>Primer Año</h2>
-      <div class="semestre">
-        <h3>1er Semestre</h3>
-        <ul>
-          <li><strong>DIS111</strong> - Programación I</li>
-          <li><strong>DIS112</strong> - Arquitectura de Computadores I</li>
-          <li><strong>FIS113</strong> - Física I</li>
-          <li><strong>MAT114</strong> - Cálculo I</li>
-          <li><strong>MAT115</strong> - Álgebra</li>
-        </ul>
-      </div>
-      <div class="semestre">
-        <h3>2do Semestre</h3>
-        <ul>
-          <li><strong>DIS121</strong> - Programación II (Requiere DIS111)</li>
-          <li><strong>DIS122</strong> - Arquitectura de Computadores II (Requiere DIS112)</li>
-          <li><strong>DIS123</strong> - Administración de Sistemas Operativos</li>
-          <li><strong>FIS124</strong> - Física II (Requiere FIS113)</li>
-          <li><strong>MAT125</strong> - Cálculo II (Requiere MAT114)</li>
-          <li><strong>EST126</strong> - Probabilidad y Estadísticas</li>
-        </ul>
-      </div>
-    </section>
-    
-<section class="año">
-  <h2>Segundo Año</h2>
-  <div class="semestre">
-    <h3>3er Semestre</h3>
-    <ul>
-      <li><strong>DIS211</strong> - Programación III (Requiere DIS121)</li>
-      <li><strong>DIS212</strong> - Teoría de Autómatas y Lenguajes Formales</li>
-      <li><strong>DIS213</strong> - Estructuras de Datos Complejas (Requiere DIS121)</li>
-      <li><strong>DIS214</strong> - Metodología de la Investigación</li>
-      <li><strong>MAT215</strong> - Cálculo III (Requiere MAT125)</li>
-      <li><strong>MAT216</strong> - Investigación Operativa (Requiere EST126)</li>
-    </ul>
-  </div>
-  <div class="semestre">
-    <h3>4to Semestre</h3>
-    <ul>
-      <li><strong>DIS221</strong> - Programación IV (Requiere DIS211)</li>
-      <li><strong>DIS222</strong> - Redes I (Requiere DIS123)</li>
-      <li><strong>DIS223</strong> - Base de Datos I (Requiere DIS213)</li>
-      <li><strong>DIS224</strong> - Análisis de Sistemas I (Requiere DIS212)</li>
-      <li><strong>MAT225</strong> - Análisis Numérico (Requiere MAT215)</li>
-    </ul>
-  </div>
-</section>
 
-<section class="año">
-  <h2>Tercer Año</h2>
-  <div class="semestre">
-    <h3>5to Semestre</h3>
-    <ul>
-      <li><strong>DIS301</strong> - Taller I (Anual) (Requiere DIS221)</li>
-      <li><strong>DIS312</strong> - Preparación y Evaluación de Proyectos Tecnológicos</li>
-      <li><strong>DIS313</strong> - Redes II (Requiere DIS222)</li>
-      <li><strong>DIS314</strong> - Base de Datos II (Requiere DIS223)</li>
-      <li><strong>DIS315</strong> - Análisis de Sistemas II (Requiere DIS224)</li>
-    </ul>
-  </div>
-  <div class="semestre">
-    <h3>6to Semestre</h3>
-    <ul>
-      <li><strong>DIS301</strong> - Taller I (Anual)</li>
-      <li><strong>DIS322</strong> - Ingeniería de Software I (Requiere DIS315)</li>
-      <li><strong>DIS323</strong> - Redes III (Requiere DIS313)</li>
-      <li><strong>DIS324</strong> - Base de Datos III (Requiere DIS314)</li>
-      <li><strong>DIS325</strong> - Fundamentos de Sistemas de Información Geográfica (Requiere DIS314)</li>
-    </ul>
-  </div>
-</section>
+  <main class="malla-grid">
+<div class="semestre" data-semestre="1° Semestre">
+  <h2>1° Semestre</h2>
+  <div class="materia" data-sigla="DIS111">DIS111 - Programación I</div>
+  <div class="materia" data-sigla="DIS112">DIS112 - Arquitectura de Computadores I</div>
+  <div class="materia" data-sigla="FIS113">FIS113 - Física I</div>
+  <div class="materia" data-sigla="MAT114">MAT114 - Cálculo I</div>
+  <div class="materia" data-sigla="MAT115">MAT115 - Álgebra</div>
+</div>
 
-<section class="año">
-  <h2>Cuarto Año</h2>
-  <div class="semestre">
-    <h3>7mo Semestre</h3>
-    <ul>
-      <li><strong>DIS401</strong> - Taller II (Anual) (Requiere DIS301)</li>
-      <li><strong>DIS412</strong> - Ingeniería de Software II (Requiere DIS322)</li>
-      <li><strong>DIS413</strong> - Tecnologías Emergentes (Requiere DIS323)</li>
-      <li><strong>DIS414</strong> - Programación Gráfica (Requiere DIS324)</li>
-      <li><strong>DIS415</strong> - Electiva I</li>
-      <li><strong>OPTATIVA I</strong></li>
-    </ul>
-  </div>
-  <div class="semestre">
-    <h3>8vo Semestre</h3>
-    <ul>
-      <li><strong>DIS401</strong> - Taller II (Anual)</li>
-      <li><strong>DIS422</strong> - Robótica (Requiere DIS221)</li>
-      <li><strong>DIS423</strong> - Tecnología de Programación en Red (Requiere DIS414)</li>
-      <li><strong>DIS424</strong> - Inteligencia Artificial (Requiere DIS413)</li>
-      <li><strong>DIS425</strong> - Electiva II (Requiere DIS415)</li>
-      <li><strong>OPTATIVA II</strong> (Requiere DIS416)</li>
-    </ul>
-  </div>
-</section>
+<div class="semestre" data-semestre="2° Semestre">
+  <h2>2° Semestre</h2>
+  <div class="materia" data-sigla="DIS121" data-requiere="DIS111">DIS121 - Programación II</div>
+  <div class="materia" data-sigla="DIS122" data-requiere="DIS112">DIS122 - Arquitectura de Computadores II</div>
+  <div class="materia" data-sigla="DIS123">DIS123 - Administración de Sistemas Operativos</div>
+  <div class="materia" data-sigla="FIS124" data-requiere="FIS113">FIS124 - Física II</div>
+  <div class="materia" data-sigla="MAT125" data-requiere="MAT114">MAT125 - Cálculo II</div>
+  <div class="materia" data-sigla="EST126">EST126 - Probabilidad y Estadísticas</div>
+</div>
 
-<section class="año">
-  <h2>Quinto Año</h2>
-  <div class="semestre">
-    <h3>9no Semestre</h3>
-    <ul>
-      <li><strong>DIS501</strong> - Taller III (Anual) (Requiere DIS401)</li>
-      <li><strong>DIS512</strong> - Auditoría Informática (Requiere DIS412)</li>
-      <li><strong>DIS513</strong> - Modelos y Simulación (Requiere MAT215)</li>
-      <li><strong>OPTATIVA III</strong> (Requiere DIS426)</li>
-    </ul>
-  </div>
-  <div class="semestre">
-    <h3>10mo Semestre</h3>
-    <ul>
-      <li><strong>DIS501</strong> - Taller III (Anual)</li>
-      <li><strong>OPTATIVA IV</strong> (Requiere DIS514)</li>
-    </ul>
-  </div>
-</section>
+<div class="semestre" data-semestre="3° Semestre">
+  <h2>3° Semestre</h2>
+  <div class="materia" data-sigla="DIS211" data-requiere="DIS121">DIS211 - Programación III</div>
+  <div class="materia" data-sigla="DIS212">DIS212 - Teoría de Autómatas y Lenguajes Formales</div>
+  <div class="materia" data-sigla="DIS213" data-requiere="DIS121">DIS213 - Estructuras de Datos Complejas</div>
+  <div class="materia" data-sigla="DIS214">DIS214 - Metodología de la Investigación</div>
+  <div class="materia" data-sigla="MAT215" data-requiere="MAT125">MAT215 - Cálculo III</div>
+  <div class="materia" data-sigla="MAT216" data-requiere="EST126">MAT216 - Investigación Operativa</div>
+</div>
 
-  
-<section class="año">
-  <h2>Menciones</h2>
-  <div class="semestre">
-    <h3>Ingeniería de Software</h3>
-    <ul>
-      <li><strong>SOF416</strong> - Seguridad Informática</li>
-      <li><strong>SOF426</strong> - Tecnología Multimedia (Requiere SOF416)</li>
-      <li><strong>SOF514</strong> - Tester en Software (Requiere SOF426)</li>
-      <li><strong>SOF522</strong> - Automatización de Procesos de Negocio (Requiere SOF514)</li>
-    </ul>
-  </div>
-  <div class="semestre">
-    <h3>Redes</h3>
-    <ul>
-      <li><strong>IEL416</strong> - Enrutamiento Avanzado</li>
-      <li><strong>IEL426</strong> - Comunicaciones Unificadas (Requiere IEL416)</li>
-      <li><strong>IEL514</strong> - Seguridad en Redes Informáticas (Requiere IEL426)</li>
-      <li><strong>IEL522</strong> - Gestión de Calidad de Servicio en Redes (Requiere IEL514)</li>
-    </ul>
-  </div>
-  <div class="semestre">
-    <h3>Informática Industrial</h3>
-    <ul>
-      <li><strong>IND416</strong> - Dinámica y Control de Sistemas</li>
-      <li><strong>IND426</strong> - Dispositivos Programables de Control (Requiere IND416)</li>
-      <li><strong>IND514</strong> - Instrumentación Industrial Digital y Virtual (Requiere IND426)</li>
-      <li><strong>IND522</strong> - Informática y Automática Industrial (Requiere IND514)</li>
-    </ul>
-  </div>
-  <div class="semestre">
-    <h3>Sistemas de Información Geográfica</h3>
-    <ul>
-      <li><strong>SIG416</strong> - Bases de Datos Espaciales</li>
-      <li><strong>SIG426</strong> - SIG Orientado a la Web (Requiere SIG416)</li>
-      <li><strong>SIG514</strong> - Procesamiento de Imágenes y Teledetección (Requiere SIG426)</li>
-      <li><strong>SIG522</strong> - Programación Avanzada de SIG (Requiere SIG514)</li>
-    </ul>
-  </div>
-</section>
+<div class="semestre" data-semestre="4° Semestre">
+  <h2>4° Semestre</h2>
+  <div class="materia" data-sigla="DIS221" data-requiere="DIS211">DIS221 - Programación IV</div>
+  <div class="materia" data-sigla="DIS222" data-requiere="DIS123">DIS222 - Redes I</div>
+  <div class="materia" data-sigla="DIS223" data-requiere="DIS213">DIS223 - Base de Datos I</div>
+  <div class="materia" data-sigla="DIS224" data-requiere="DIS212">DIS224 - Análisis de Sistemas I</div>
+  <div class="materia" data-sigla="MAT225" data-requiere="MAT215">MAT225 - Análisis Numérico</div>
+</div>
 
-<section class="año">
-  <h2>Materias Electivas</h2>
-  <div class="semestre">
-    <h3>Electiva I</h3>
-    <ul>
-      <li>Teoría y Destrezas del Aprendizaje</li>
-      <li>Inglés I</li>
-      <li>Emprendedorismo</li>
-    </ul>
-  </div>
-  <div class="semestre">
-    <h3>Electiva II (Requiere Electiva I)</h3>
-    <ul>
-      <li>Gestión de Recursos Humanos</li>
-      <li>Inglés II</li>
-      <li>Realidad Nacional</li>
-    </ul>
-  </div>
-</section>
+<div class="semestre" data-semestre="5° Semestre">
+  <h2>5° Semestre</h2>
+  <div class="materia" data-sigla="DIS301" data-requiere="DIS221">DIS301 - Taller I (Anual)</div>
+  <div class="materia" data-sigla="DIS312">DIS312 - Preparación y Evaluación de Proyectos Tecnológicos</div>
+  <div class="materia" data-sigla="DIS313" data-requiere="DIS222">DIS313 - Redes II</div>
+  <div class="materia" data-sigla="DIS314" data-requiere="DIS223">DIS314 - Base de Datos II</div>
+  <div class="materia" data-sigla="DIS315" data-requiere="DIS224">DIS315 - Análisis de Sistemas II</div>
+</div>
+
+<div class="semestre" data-semestre="6° Semestre">
+  <h2>6° Semestre</h2>
+  <div class="materia" data-sigla="DIS301">DIS301 - Taller I (Anual)</div>
+  <div class="materia" data-sigla="DIS322" data-requiere="DIS315">DIS322 - Ingeniería de Software I</div>
+  <div class="materia" data-sigla="DIS323" data-requiere="DIS313">DIS323 - Redes III</div>
+  <div class="materia" data-sigla="DIS324" data-requiere="DIS314">DIS324 - Base de Datos III</div>
+  <div class="materia" data-sigla="DIS325" data-requiere="DIS314">DIS325 - Fundamentos de Sistemas de Información Geográfica</div>
+</div>
+
+<div class="semestre" data-semestre="7° Semestre">
+  <h2>7° Semestre</h2>
+  <div class="materia" data-sigla="DIS401" data-requiere="DIS301">DIS401 - Taller II (Anual)</div>
+  <div class="materia" data-sigla="DIS412" data-requiere="DIS322">DIS412 - Ingeniería de Software II</div>
+  <div class="materia" data-sigla="DIS413" data-requiere="DIS323">DIS413 - Tecnologías Emergentes</div>
+  <div class="materia" data-sigla="DIS414" data-requiere="DIS324">DIS414 - Programación Gráfica</div>
+  <div class="materia" data-sigla="DIS415">DIS415 - Electiva I</div>
+  <div class="materia" data-sigla="OPTATIVA I">OPTATIVA I - Optativa I</div>
+</div>
+
+<div class="semestre" data-semestre="8° Semestre">
+  <h2>8° Semestre</h2>
+  <div class="materia" data-sigla="DIS401">DIS401 - Taller II (Anual)</div>
+  <div class="materia" data-sigla="DIS422" data-requiere="DIS221">DIS422 - Robótica</div>
+  <div class="materia" data-sigla="DIS423" data-requiere="DIS414">DIS423 - Tecnología de Programación en Red</div>
+  <div class="materia" data-sigla="DIS424" data-requiere="DIS413">DIS424 - Inteligencia Artificial</div>
+  <div class="materia" data-sigla="DIS425" data-requiere="DIS415">DIS425 - Electiva II</div>
+  <div class="materia" data-sigla="OPTATIVA II" data-requiere="DIS416">OPTATIVA II - Optativa II</div>
+</div>
+
+<div class="semestre" data-semestre="9° Semestre">
+  <h2>9° Semestre</h2>
+  <div class="materia" data-sigla="DIS501" data-requiere="DIS401">DIS501 - Taller III (Anual)</div>
+  <div class="materia" data-sigla="DIS512" data-requiere="DIS412">DIS512 - Auditoría Informática</div>
+  <div class="materia" data-sigla="DIS513" data-requiere="MAT215">DIS513 - Modelos y Simulación</div>
+  <div class="materia" data-sigla="OPTATIVA III" data-requiere="DIS426">OPTATIVA III - Optativa III</div>
+</div>
+
+<div class="semestre" data-semestre="10° Semestre">
+  <h2>10° Semestre</h2>
+  <div class="materia" data-sigla="DIS501">DIS501 - Taller III (Anual)</div>
+  <div class="materia" data-sigla="OPTATIVA IV" data-requiere="DIS514">OPTATIVA IV - Optativa IV</div>
+</div>
+
+
+    <div class="semestre" data-semestre="1">
+      <h2>1° Semestre</h2>
+      <div class="materia" data-sigla="DIS111">DIS111 - Programación I</div>
+      <div class="materia" data-sigla="DIS112">DIS112 - Arquitectura de Computadores I</div>
+      <div class="materia" data-sigla="FIS113">FIS113 - Física I</div>
+      <div class="materia" data-sigla="MAT114">MAT114 - Cálculo I</div>
+      <div class="materia" data-sigla="MAT115">MAT115 - Álgebra</div>
+    </div>
+
+    <div class="semestre" data-semestre="2">
+      <h2>2° Semestre</h2>
+      <div class="materia" data-sigla="DIS121" data-requiere="DIS111">DIS121 - Programación II</div>
+      <div class="materia" data-sigla="DIS122" data-requiere="DIS112">DIS122 - Arquitectura de Computadores II</div>
+      <div class="materia" data-sigla="DIS123">DIS123 - Administración de Sistemas Operativos</div>
+      <div class="materia" data-sigla="FIS124" data-requiere="FIS113">FIS124 - Física II</div>
+      <div class="materia" data-sigla="MAT125" data-requiere="MAT114">MAT125 - Cálculo II</div>
+      <div class="materia" data-sigla="EST126">EST126 - Probabilidad y Estadísticas</div>
+    </div>
+  <div class="semestre" data-semestre="Mención Ingeniería de Software">
+  <h2>Mención Ingeniería de Software</h2>
+  <div class="materia" data-sigla="SOF416">SOF416 - Seguridad Informática</div>
+  <div class="materia" data-sigla="SOF426" data-requiere="SOF416">SOF426 - Tecnología Multimedia</div>
+  <div class="materia" data-sigla="SOF514" data-requiere="SOF426">SOF514 - Tester en Software</div>
+  <div class="materia" data-sigla="SOF522" data-requiere="SOF514">SOF522 - Automatización de Procesos de Negocio</div>
+</div>
+
+<div class="semestre" data-semestre="Mención Redes">
+  <h2>Mención Redes</h2>
+  <div class="materia" data-sigla="IEL416">IEL416 - Enrutamiento Avanzado</div>
+  <div class="materia" data-sigla="IEL426" data-requiere="IEL416">IEL426 - Comunicaciones Unificadas</div>
+  <div class="materia" data-sigla="IEL514" data-requiere="IEL426">IEL514 - Seguridad en Redes Informáticas</div>
+  <div class="materia" data-sigla="IEL522" data-requiere="IEL514">IEL522 - Gestión de Calidad de Servicio en Redes</div>
+</div>
+
+<div class="semestre" data-semestre="Mención Informática Industrial">
+  <h2>Mención Informática Industrial</h2>
+  <div class="materia" data-sigla="IND416">IND416 - Dinámica y Control de Sistemas</div>
+  <div class="materia" data-sigla="IND426" data-requiere="IND416">IND426 - Dispositivos Programables de Control</div>
+  <div class="materia" data-sigla="IND514" data-requiere="IND426">IND514 - Instrumentación Industrial Digital y Virtual</div>
+  <div class="materia" data-sigla="IND522" data-requiere="IND514">IND522 - Informática y Automática Industrial</div>
+</div>
+
+<div class="semestre" data-semestre="Mención SIG">
+  <h2>Mención SIG</h2>
+  <div class="materia" data-sigla="SIG416">SIG416 - Bases de Datos Espaciales</div>
+  <div class="materia" data-sigla="SIG426" data-requiere="SIG416">SIG426 - SIG Orientado a la Web</div>
+  <div class="materia" data-sigla="SIG514" data-requiere="SIG426">SIG514 - Procesamiento de Imágenes y Teledetección</div>
+  <div class="materia" data-sigla="SIG522" data-requiere="SIG514">SIG522 - Programación Avanzada de SIG</div>
+</div>
+
+<div class="semestre" data-semestre="Electivas">
+  <h2>Electivas</h2>
+  <div class="materia" data-sigla="ELEC1">ELEC1 - Teoría y Destrezas del Aprendizaje</div>
+  <div class="materia" data-sigla="ELEC2">ELEC2 - Inglés I</div>
+  <div class="materia" data-sigla="ELEC3">ELEC3 - Emprendedorismo</div>
+  <div class="materia" data-sigla="ELEC4" data-requiere="ELEC1">ELEC4 - Gestión de Recursos Humanos</div>
+  <div class="materia" data-sigla="ELEC5" data-requiere="ELEC2">ELEC5 - Inglés II</div>
+  <div class="materia" data-sigla="ELEC6" data-requiere="ELEC1">ELEC6 - Realidad Nacional</div>
+</div>
 
 </main>
+
   <script src="script.js"></script>
 </body>
 </html>
